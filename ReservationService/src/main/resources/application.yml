@@ -1,0 +1,9 @@
+server:
+  port:
+    9096
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://TN456:Tanu123@cluster0.ghc6zv3.mongodb.net/?retryWrites=true&w=majority
+      database: Microservices_POC

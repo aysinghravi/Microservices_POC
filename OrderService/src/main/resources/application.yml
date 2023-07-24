@@ -1,0 +1,17 @@
+server:
+  port:
+    9097
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://TN456:Tanu123@cluster0.ghc6zv3.mongodb.net/?retryWrites=true&w=majority
+      database: Microservices_POC
+
+springdoc:
+  swagger-ui:
+    path: '/swagger-ui.html'
+  api-docs:
+    path: '/api-docs'
+    groups:
+      enabled: true
